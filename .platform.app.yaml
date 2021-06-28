@@ -1,0 +1,90 @@
+# This file describes an application. You can have multiple applications
+# in the same project.
+
+# The name of this app. Must be unique within a project.
+name: app
+
+# The runtime the application uses.
+type: "php:7.4"
+
+# Configuration of the build of the application.
+build:
+    flavor: composer
+
+# The relationships of the application with services or other applications.
+# The left-hand side is the name of the relationship as it will be exposed
+# to the application in the PLATFORM_RELATIONSHIPS variable. The right-hand
+# side is in the form `<service name>:<endpoint name>`.
+relationships:
+    database: "mysqldb:mysql"
+
+# The configuration of app when it is exposed to the web.
+web:
+    locations:
+        "/":
+            # The public directory of the app, relative to its root.
+            root: "web"
+            # The front-controller script to send non-static requests to.
+            passthru: "/index.php"
+            # Wordpress has multiple roots (wp-admin) so the following is required
+            index:
+                - "index.php"
+            # The number of seconds whitelisted (static) content should be cached.
+            expires: 600
+            scripts: true
+            allow: true
+            rules:
+                '^/wp/xmlrpc\.php$':
+                    scripts: false
+                    allow: false
+                '^/wp-config\.php$':
+                    scripts: false
+                    allow: false
+        "/wp-content":
+            root: "web/wp-content"
+            scripts: false
+            allow: false
+            rules:
+                '\.(jpe?g|png|gif|svgz?|css|js|map|ico|bmp|eot|woff2?|otf|ttf|pdf|mp4|xls|xlsx|doc|docx|webm|zip)$':
+                    allow: true
+        "/wp-content/themes":
+           root: "web/wp-content/themes"
+           scripts: true
+           allow: true
+        "/wp-content/plugins":
+           root: "web/wp-content/plugins"
+           scripts: true
+           allow: true
+
+# The size of the persistent disk of the application (in MB).
+disk: 2048
+
+dependencies:
+    php:
+        wp-cli/wp-cli: "^1.1"
+        psy/psysh: "^0.8.4"
+
+# The mounts that will be performed when the package is deployed.
+mounts:
+    "/web/wp-content":
+        source: local
+        source_path: "wp-content"
+hooks:
+    deploy: |
+        set -e
+        SITE_NAME="Wordpress Woocommerce"
+        SITE_URL=$(echo $PLATFORM_ROUTES | base64 -d | jq 'keys[0]'|sed 's|https\?://||'|sed 's|/||'|sed 's|\"||g')
+
+        if ! $(wp core is-installed); then
+            rsync -a web/wp/wp-content/ web/wp-content/
+            rsync -a init/wp-content/ web/wp-content/
+            wp core install --url="https://$SITE_URL/wp" --title="$SITE_NAME" --admin_user="$ADMIN_USER" --admin_password="$ADMIN_PASSWORD" --admin_email="$ADMIN_EMAIL"
+            wp plugin activate woocommerce
+            wp theme activate storefront
+            wp plugin activate cookie-notice
+            wp plugin activate classic-editor
+            wp plugin activate wordpress-importer
+            wp import web/wp-content/plugins/woocommerce/sample-data/sample_products.xml --authors=create
+            wp user delete shopmanager --reassign=1
+            wp rewrite structure /%year%/%monthnum%/%day%/%postname%/
+        fi
