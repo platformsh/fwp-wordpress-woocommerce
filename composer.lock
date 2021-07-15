@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "746861177b0e6b61b1f831fd3a82298a",
+    "content-hash": "9312d2ae988381eacf8caa8a72d2458c",
     "packages": [
         {
             "name": "composer/installers",
@@ -383,10 +383,10 @@
         },
         {
             "name": "koodimonni-plugin-language/cookie-notice-fr_fr",
-            "version": "2.0.4",
+            "version": "2.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/cookie-notice/2.0.4/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/cookie-notice/2.1.0/fr_FR.zip",
                 "reference": "master"
             },
             "type": "koodimonni-plugin-language"
@@ -636,15 +636,15 @@
         },
         {
             "name": "wpackagist-plugin/cookie-notice",
-            "version": "2.0.4",
+            "version": "2.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cookie-notice/",
-                "reference": "tags/2.0.4"
+                "reference": "tags/2.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cookie-notice.2.0.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/cookie-notice.2.1.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -654,15 +654,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "5.4.1",
+            "version": "5.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/5.4.1"
+                "reference": "tags/5.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.5.4.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.5.5.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -672,15 +672,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-paypal-express-checkout/",
-                "reference": "tags/2.1.1"
+                "reference": "tags/2.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-paypal-express-checkout.2.1.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-paypal-express-checkout.2.1.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
