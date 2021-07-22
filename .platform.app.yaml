@@ -45,7 +45,7 @@ web:
             scripts: false
             allow: false
             rules:
-                '\.(jpe?g|png|gif|svgz?|css|js|map|ico|bmp|eot|woff2?|otf|ttf|pdf|mp4|xls|xlsx|doc|docx|webm|zip)$':
+                '\.(jpe?g|png|gif|svgz?|css|js|map|ico|bmp|eot|woff2?|otf|ttf|pdf|mp4|xls|xlsx|doc|docx|webm|zip|webp)$':
                     allow: true
         "/wp-content/themes":
            root: "web/wp-content/themes"

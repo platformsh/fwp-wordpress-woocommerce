@@ -45,10 +45,10 @@
       "package": {
           "name": "koodimonni-plugin-language/classic-editor-fr_fr",
           "type": "koodimonni-plugin-language",
-          "version": "1.6",
+          "version": "1.6.1",
           "dist": {
           "type": "zip",
-              "url": "https://downloads.wordpress.org/translation/plugin/classic-editor/1.6/fr_FR.zip",
+              "url": "https://downloads.wordpress.org/translation/plugin/classic-editor/1.6.1/fr_FR.zip",
               "reference": "master"
           }
         }

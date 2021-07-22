@@ -1,0 +1,9 @@
+# Changelog
+
+## [1.0.2] - 22-07-2021
+- upgrade WordPress 5.8.0
+- upgrade plugin classic-editor 1.6.1
+- upgrade language classic-editor fr_FR 1.6.1
+- add type mime webp in .platform.app.yaml
+- change version.txt 1.0.2
+- create changelog
