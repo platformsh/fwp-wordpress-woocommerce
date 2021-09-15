@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.3] - 15-09-2021
+- upgrade WordPress (5.8.0 => 5.8.1)
+- upgrade plugin/classic-editor (1.6.1 => 1.6.2)
+- upgrade theme/storefront (3.7.0 => 3.8.1)
+- upgrade plugin/woocommerce (5.5.1 => 5.6.0)
+- upgrade plugin/cookie-notice (2.1.0 => 2.1.4)
+- upgrade plugin/woocommerce-pdf-invoices-packing-slips (2.9.0 => 2.9.3)
+
 ## [1.0.2] - 22-07-2021
 - upgrade WordPress 5.8.0
 - upgrade plugin classic-editor 1.6.1
