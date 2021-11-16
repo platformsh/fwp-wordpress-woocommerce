@@ -19,10 +19,10 @@
       "package": {
           "name": "koodimonni-theme-language/storefront-fr_fr",
           "type": "koodimonni-theme-language",
-          "version": "3.8.1",
+          "version": "3.9.1",
           "dist": {
           "type": "zip",
-              "url": "https://downloads.wordpress.org/translation/theme/storefront/3.8.1/fr_FR.zip",
+              "url": "https://downloads.wordpress.org/translation/theme/storefront/3.9.1/fr_FR.zip",
               "reference": "master"
           }
         }
@@ -32,10 +32,10 @@
       "package": {
           "name": "koodimonni-plugin-language/cookie-notice-fr_fr",
           "type": "koodimonni-plugin-language",
-          "version": "2.1.4",
+          "version": "2.1.5",
           "dist": {
           "type": "zip",
-              "url": "https://downloads.wordpress.org/translation/plugin/cookie-notice/2.1.4/fr_FR.zip",
+              "url": "https://downloads.wordpress.org/translation/plugin/cookie-notice/2.1.5/fr_FR.zip",
               "reference": "master"
           }
         }
@@ -70,7 +70,9 @@
     "koodimonni-theme-language/storefront-fr_fr": "^3.6",
     "koodimonni-plugin-language/cookie-notice-fr_fr": "^2.0",
     "koodimonni-plugin-language/classic-editor-fr_fr": "^1.6",
-    "wpackagist-plugin/woocommerce-gateway-stripe": "^5.2"
+    "wpackagist-plugin/woocommerce-gateway-stripe": "^5.2",
+    "wp-cli/wp-cli-bundle": "^2.5",
+    "psy/psysh": "^0.10.9"
   },
   "extra": {
     "installer-paths": {
