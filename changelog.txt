@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2] - 10-01-2022
+- Upgrading johnpbloch/wordpress-core (5.8.2 => 5.8.3)
+- Upgrading johnpbloch/wordpress (5.8.2 => 5.8.3)
+- wpackagist-plugin/woocommerce (5.9.0 => 6.0.0)
+- Upgrading wpackagist-plugin/cookie-notice (2.1.5 => 2.2.1)
+- Upgrading koodimonni-plugin-language/cookie-notice-fr_fr (2.1.5 => 2.2.1)
+
 ## [2.0.1] - 15-11-2021
 - Upgrade composer/installers (v1.12.0 => v2.0.1)
 - Upgrade johnpbloch/wordpress (5.8.1 => 5.8.2)
