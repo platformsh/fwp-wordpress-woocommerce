@@ -86,5 +86,12 @@
       "init/wp-content/languages/plugins/": ["vendor:koodimonni-plugin-language"],
       "init/wp-content/languages/themes/": ["vendor:koodimonni-theme-language"]
     }
+  },
+  "config": {
+    "allow-plugins": {
+      "johnpbloch/wordpress-core-installer": true,
+      "koodimonni/composer-dropin-installer": true,
+      "composer/installers": true
+    }
   }
 }
