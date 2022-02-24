@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.0.3] - 23-02-2022
+- Upgrading johnpbloch/wordpress (5.8.3 => 5.9.1)
+- Upgrading johnpbloch/wordpress-core (5.8.3 => 5.9.1)
+- Upgrading koodimonni-language/fr_fr (5.8.2 => 5.9.1)
+- Upgrading wpackagist-plugin/woocommerce (6.0.0 => 6.2.1)
+- Upgrading wpackagist-plugin/woocommerce-gateway-stripe (6.0.0 => 6.2.0)
+- Upgrading wpackagist-plugin/woocommerce-pdf-invoices-packing-slips (2.11.3 => 2.13.1)
+
+
 ## [2.0.2] - 10-01-2022
 - Upgrading johnpbloch/wordpress-core (5.8.2 => 5.8.3)
 - Upgrading johnpbloch/wordpress (5.8.2 => 5.8.3)
