@@ -19,10 +19,10 @@
       "package": {
           "name": "koodimonni-theme-language/storefront-fr_fr",
           "type": "koodimonni-theme-language",
-          "version": "3.9.1",
+          "version": "4.0.0",
           "dist": {
           "type": "zip",
-              "url": "https://downloads.wordpress.org/translation/theme/storefront/3.9.1/fr_FR.zip",
+              "url": "https://downloads.wordpress.org/translation/theme/storefront/4.0.0/fr_FR.zip",
               "reference": "master"
           }
         }
@@ -32,10 +32,10 @@
       "package": {
           "name": "koodimonni-plugin-language/cookie-notice-fr_fr",
           "type": "koodimonni-plugin-language",
-          "version": "2.2.1",
+          "version": "2.2.3",
           "dist": {
           "type": "zip",
-              "url": "https://downloads.wordpress.org/translation/plugin/cookie-notice/2.2.1/fr_FR.zip",
+              "url": "https://downloads.wordpress.org/translation/plugin/cookie-notice/2.2.3/fr_FR.zip",
               "reference": "master"
           }
         }
@@ -56,24 +56,26 @@
   ],
   "require": {
     "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
-    "johnpbloch/wordpress": "^5.6",
-    "johnpbloch/wordpress-core": "^5.6",
+    "johnpbloch/wordpress": "5.9.2",
+    "johnpbloch/wordpress-core": "5.9.2",
     "wpackagist-plugin/woocommerce": "^6.0",
     "wpackagist-plugin/wordpress-importer": "^0.7.0",
     "wpackagist-plugin/classic-editor": "^1.6",
-    "wpackagist-theme/storefront": "^3.6",
+    "wpackagist-theme/storefront": "^4.0",
     "wpackagist-plugin/cookie-notice": "^2.0",
     "wpackagist-plugin/woocommerce-pdf-invoices-packing-slips": "^2.11",
     "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout": "^2.1",
     "koodimonni-language/fr_fr": "^5.6",
     "koodimonni/composer-dropin-installer": "^1.3",
-    "koodimonni-theme-language/storefront-fr_fr": "^3.6",
+    "koodimonni-theme-language/storefront-fr_fr": "^4.0",
     "koodimonni-plugin-language/cookie-notice-fr_fr": "^2.0",
     "koodimonni-plugin-language/classic-editor-fr_fr": "^1.6",
     "wpackagist-plugin/woocommerce-gateway-stripe": "^6.0",
     "wp-cli/wp-cli-bundle": "^2.5",
     "psy/psysh": "^0.10.9"
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "extra": {
     "installer-paths": {
       "init/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
