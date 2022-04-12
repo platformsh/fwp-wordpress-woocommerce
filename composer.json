@@ -56,8 +56,8 @@
   ],
   "require": {
     "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
-    "johnpbloch/wordpress": "5.9.2",
-    "johnpbloch/wordpress-core": "5.9.2",
+    "johnpbloch/wordpress": "5.9.3",
+    "johnpbloch/wordpress-core": "5.9.3",
     "wpackagist-plugin/woocommerce": "^6.0",
     "wpackagist-plugin/wordpress-importer": "^0.7.0",
     "wpackagist-plugin/classic-editor": "^1.6",
