@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5edb36e09f42b4c44429e273aec10ef",
+    "content-hash": "8552c6bd5128ecc1bf235d3a1428626e",
     "packages": [
         {
             "name": "composer/ca-bundle",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "4c679186f2aca4ab6a0f1b0b9cf9252decb44d0b"
+                "reference": "fd5dd441932a7e10ca6e5b490e272d34c8430640"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/4c679186f2aca4ab6a0f1b0b9cf9252decb44d0b",
-                "reference": "4c679186f2aca4ab6a0f1b0b9cf9252decb44d0b",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/fd5dd441932a7e10ca6e5b490e272d34c8430640",
+                "reference": "fd5dd441932a7e10ca6e5b490e272d34c8430640",
                 "shasum": ""
             },
             "require": {
@@ -64,7 +64,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.3.1"
+                "source": "https://github.com/composer/ca-bundle/tree/1.3.2"
             },
             "funding": [
                 {
@@ -80,20 +80,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-28T20:44:15+00:00"
+            "time": "2022-05-24T11:56:16+00:00"
         },
         {
             "name": "composer/composer",
-            "version": "2.3.4",
+            "version": "2.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "b7a041319947872c4352aa8139f4b4d6dea7130f"
+                "reference": "50c47b1f907cfcdb8f072b88164d22b527557ae1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/b7a041319947872c4352aa8139f4b4d6dea7130f",
-                "reference": "b7a041319947872c4352aa8139f4b4d6dea7130f",
+                "url": "https://api.github.com/repos/composer/composer/zipball/50c47b1f907cfcdb8f072b88164d22b527557ae1",
+                "reference": "50c47b1f907cfcdb8f072b88164d22b527557ae1",
                 "shasum": ""
             },
             "require": {
@@ -169,7 +169,7 @@
             "support": {
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.3.4"
+                "source": "https://github.com/composer/composer/tree/2.3.5"
             },
             "funding": [
                 {
@@ -185,20 +185,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-07T19:16:35+00:00"
+            "time": "2022-04-13T14:43:00+00:00"
         },
         {
             "name": "composer/installers",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "75e5ef05436c90ac565a48176cc7465991908352"
+                "reference": "af93ba6e52236418f07a278033eba6959ee5b983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/75e5ef05436c90ac565a48176cc7465991908352",
-                "reference": "75e5ef05436c90ac565a48176cc7465991908352",
+                "url": "https://api.github.com/repos/composer/installers/zipball/af93ba6e52236418f07a278033eba6959ee5b983",
+                "reference": "af93ba6e52236418f07a278033eba6959ee5b983",
                 "shasum": ""
             },
             "require": {
@@ -313,7 +313,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v2.1.0"
+                "source": "https://github.com/composer/installers/tree/v2.1.1"
             },
             "funding": [
                 {
@@ -329,7 +329,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-18T12:27:54+00:00"
+            "time": "2022-04-13T09:13:00+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -554,16 +554,16 @@
         },
         {
             "name": "composer/spdx-licenses",
-            "version": "1.5.6",
+            "version": "1.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "a30d487169d799745ca7280bc90fdfa693536901"
+                "reference": "c848241796da2abf65837d51dce1fae55a960149"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/a30d487169d799745ca7280bc90fdfa693536901",
-                "reference": "a30d487169d799745ca7280bc90fdfa693536901",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/c848241796da2abf65837d51dce1fae55a960149",
+                "reference": "c848241796da2abf65837d51dce1fae55a960149",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +614,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/spdx-licenses/issues",
-                "source": "https://github.com/composer/spdx-licenses/tree/1.5.6"
+                "source": "https://github.com/composer/spdx-licenses/tree/1.5.7"
             },
             "funding": [
                 {
@@ -630,7 +630,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-18T10:14:14+00:00"
+            "time": "2022-05-23T07:37:50+00:00"
         },
         {
             "name": "composer/xdebug-handler",
@@ -913,20 +913,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.9.3",
+            "version": "6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "8d0788bd5553c897b12bbf0e122c2fc5c4129914"
+                "reference": "2432ce687e68c3df7de16920d467761b241e20cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/8d0788bd5553c897b12bbf0e122c2fc5c4129914",
-                "reference": "8d0788bd5553c897b12bbf0e122c2fc5c4129914",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/2432ce687e68c3df7de16920d467761b241e20cf",
+                "reference": "2432ce687e68c3df7de16920d467761b241e20cf",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.9.3",
+                "johnpbloch/wordpress-core": "6.0.0",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -955,20 +955,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2022-04-05T19:23:54+00:00"
+            "time": "2022-05-24T19:10:15+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.9.3",
+            "version": "6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "455d38c7b7bcdce3e0a1c6108eccca8de1860361"
+                "reference": "90d8de3a682f2ed93ebe8cf99bec8fb297d43967"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/455d38c7b7bcdce3e0a1c6108eccca8de1860361",
-                "reference": "455d38c7b7bcdce3e0a1c6108eccca8de1860361",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/90d8de3a682f2ed93ebe8cf99bec8fb297d43967",
+                "reference": "90d8de3a682f2ed93ebe8cf99bec8fb297d43967",
                 "shasum": ""
             },
             "require": {
@@ -976,7 +976,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.9.3"
+                "wordpress/core-implementation": "6.0.0"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1003,7 +1003,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2022-04-05T19:23:48+00:00"
+            "time": "2022-05-24T19:10:11+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1061,16 +1061,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "5.2.11",
+            "version": "5.2.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "2ab6744b7296ded80f8cc4f9509abbff393399aa"
+                "reference": "ad87d5a5ca981228e0e205c2bc7dfb8e24559b60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/2ab6744b7296ded80f8cc4f9509abbff393399aa",
-                "reference": "2ab6744b7296ded80f8cc4f9509abbff393399aa",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/ad87d5a5ca981228e0e205c2bc7dfb8e24559b60",
+                "reference": "ad87d5a5ca981228e0e205c2bc7dfb8e24559b60",
                 "shasum": ""
             },
             "require": {
@@ -1125,16 +1125,16 @@
             ],
             "support": {
                 "issues": "https://github.com/justinrainbow/json-schema/issues",
-                "source": "https://github.com/justinrainbow/json-schema/tree/5.2.11"
+                "source": "https://github.com/justinrainbow/json-schema/tree/5.2.12"
             },
-            "time": "2021-07-22T09:24:00+00:00"
+            "time": "2022-04-13T08:02:27+00:00"
         },
         {
             "name": "koodimonni-language/fr_fr",
-            "version": "5.9.3",
+            "version": "6.0",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/5.9.3/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/core/6.0/fr_FR.zip"
             },
             "require": {
                 "koodimonni-plugin-language/advanced-rich-text-tools-fr_fr": "*",
@@ -1200,10 +1200,10 @@
         },
         {
             "name": "koodimonni-plugin-language/akismet-fr_fr",
-            "version": "4.2.2",
+            "version": "4.2.4",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/akismet/4.2.2/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/plugin/akismet/4.2.4/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1238,10 +1238,10 @@
         },
         {
             "name": "koodimonni-plugin-language/buddypress-fr_fr",
-            "version": "10.2.0",
+            "version": "10.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/buddypress/10.2.0/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/plugin/buddypress/10.3.0/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1305,10 +1305,10 @@
         },
         {
             "name": "koodimonni-plugin-language/debug-bar-fr_fr",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/debug-bar/1.1.2/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/plugin/debug-bar/1.1.3/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1457,10 +1457,10 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-fr_fr",
-            "version": "6.3.1",
+            "version": "6.5.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/6.3.1/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/6.5.1/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1552,10 +1552,10 @@
         },
         {
             "name": "koodimonni-theme-language/storefront-fr_fr",
-            "version": "4.0.0",
+            "version": "4.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/storefront/4.0.0/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/theme/storefront/4.1.0/fr_FR.zip",
                 "reference": "master"
             },
             "type": "koodimonni-theme-language"
@@ -1581,10 +1581,10 @@
         },
         {
             "name": "koodimonni-theme-language/twentyeleven-fr_fr",
-            "version": "4.0",
+            "version": "4.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/twentyeleven/4.0/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/theme/twentyeleven/4.1/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1600,10 +1600,10 @@
         },
         {
             "name": "koodimonni-theme-language/twentyfifteen-fr_fr",
-            "version": "3.1",
+            "version": "3.2",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/twentyfifteen/3.1/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/theme/twentyfifteen/3.2/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1619,10 +1619,10 @@
         },
         {
             "name": "koodimonni-theme-language/twentyfourteen-fr_fr",
-            "version": "3.3",
+            "version": "3.4",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/twentyfourteen/3.3/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/theme/twentyfourteen/3.4/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1638,10 +1638,10 @@
         },
         {
             "name": "koodimonni-theme-language/twentynineteen-fr_fr",
-            "version": "2.2",
+            "version": "2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/twentynineteen/2.2/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/theme/twentynineteen/2.3/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1657,10 +1657,10 @@
         },
         {
             "name": "koodimonni-theme-language/twentyseventeen-fr_fr",
-            "version": "2.9",
+            "version": "3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/twentyseventeen/2.9/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/theme/twentyseventeen/3.0/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1676,10 +1676,10 @@
         },
         {
             "name": "koodimonni-theme-language/twentysixteen-fr_fr",
-            "version": "2.6",
+            "version": "2.7",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/twentysixteen/2.6/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/theme/twentysixteen/2.7/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1714,10 +1714,10 @@
         },
         {
             "name": "koodimonni-theme-language/twentythirteen-fr_fr",
-            "version": "3.5",
+            "version": "3.6",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/twentythirteen/3.5/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/theme/twentythirteen/3.6/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1733,10 +1733,10 @@
         },
         {
             "name": "koodimonni-theme-language/twentytwelve-fr_fr",
-            "version": "3.6",
+            "version": "3.7",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/twentytwelve/3.6/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/theme/twentytwelve/3.7/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1752,10 +1752,10 @@
         },
         {
             "name": "koodimonni-theme-language/twentytwenty-fr_fr",
-            "version": "1.9",
+            "version": "2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/twentytwenty/1.9/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/theme/twentytwenty/2.0/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1838,16 +1838,16 @@
         },
         {
             "name": "mck89/peast",
-            "version": "v1.13.11",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mck89/peast.git",
-                "reference": "78c57966f3da5f223636ea0417d71ac6ff61e47f"
+                "reference": "70a728d598017e237118652b2fa30fbaa9d4ef6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mck89/peast/zipball/78c57966f3da5f223636ea0417d71ac6ff61e47f",
-                "reference": "78c57966f3da5f223636ea0417d71ac6ff61e47f",
+                "url": "https://api.github.com/repos/mck89/peast/zipball/70a728d598017e237118652b2fa30fbaa9d4ef6d",
+                "reference": "70a728d598017e237118652b2fa30fbaa9d4ef6d",
                 "shasum": ""
             },
             "require": {
@@ -1860,7 +1860,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13.11-dev"
+                    "dev-master": "1.14.0-dev"
                 }
             },
             "autoload": {
@@ -1882,9 +1882,9 @@
             "description": "Peast is PHP library that generates AST for JavaScript code",
             "support": {
                 "issues": "https://github.com/mck89/peast/issues",
-                "source": "https://github.com/mck89/peast/tree/v1.13.11"
+                "source": "https://github.com/mck89/peast/tree/v1.14.0"
             },
-            "time": "2022-01-11T17:58:18+00:00"
+            "time": "2022-05-01T15:09:54+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -2460,16 +2460,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.4.7",
+            "version": "v5.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "900275254f0a1a2afff1ab0e11abd5587a10e1d6"
+                "reference": "829d5d1bf60b2efeb0887b7436873becc71a45eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/900275254f0a1a2afff1ab0e11abd5587a10e1d6",
-                "reference": "900275254f0a1a2afff1ab0e11abd5587a10e1d6",
+                "url": "https://api.github.com/repos/symfony/console/zipball/829d5d1bf60b2efeb0887b7436873becc71a45eb",
+                "reference": "829d5d1bf60b2efeb0887b7436873becc71a45eb",
                 "shasum": ""
             },
             "require": {
@@ -2539,7 +2539,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v5.4.7"
+                "source": "https://github.com/symfony/console/tree/v5.4.9"
             },
             "funding": [
                 {
@@ -2555,7 +2555,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-31T17:09:19+00:00"
+            "time": "2022-05-18T06:17:34+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2626,16 +2626,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.4.7",
+            "version": "v5.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "3a4442138d80c9f7b600fb297534ac718b61d37f"
+                "reference": "36a017fa4cce1eff1b8e8129ff53513abcef05ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/3a4442138d80c9f7b600fb297534ac718b61d37f",
-                "reference": "3a4442138d80c9f7b600fb297534ac718b61d37f",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/36a017fa4cce1eff1b8e8129ff53513abcef05ba",
+                "reference": "36a017fa4cce1eff1b8e8129ff53513abcef05ba",
                 "shasum": ""
             },
             "require": {
@@ -2670,7 +2670,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v5.4.7"
+                "source": "https://github.com/symfony/filesystem/tree/v5.4.9"
             },
             "funding": [
                 {
@@ -2686,20 +2686,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-01T12:33:59+00:00"
+            "time": "2022-05-20T13:55:35+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v5.4.3",
+            "version": "v5.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "231313534dded84c7ecaa79d14bc5da4ccb69b7d"
+                "reference": "9b630f3427f3ebe7cd346c277a1408b00249dad9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/231313534dded84c7ecaa79d14bc5da4ccb69b7d",
-                "reference": "231313534dded84c7ecaa79d14bc5da4ccb69b7d",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/9b630f3427f3ebe7cd346c277a1408b00249dad9",
+                "reference": "9b630f3427f3ebe7cd346c277a1408b00249dad9",
                 "shasum": ""
             },
             "require": {
@@ -2733,7 +2733,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/finder/tree/v5.4.3"
+                "source": "https://github.com/symfony/finder/tree/v5.4.8"
             },
             "funding": [
                 {
@@ -2749,7 +2749,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-26T16:34:36+00:00"
+            "time": "2022-04-15T08:07:45+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3245,16 +3245,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v5.4.7",
+            "version": "v5.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "38a44b2517b470a436e1c944bf9b9ba3961137fb"
+                "reference": "597f3fff8e3e91836bb0bd38f5718b56ddbde2f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/38a44b2517b470a436e1c944bf9b9ba3961137fb",
-                "reference": "38a44b2517b470a436e1c944bf9b9ba3961137fb",
+                "url": "https://api.github.com/repos/symfony/process/zipball/597f3fff8e3e91836bb0bd38f5718b56ddbde2f3",
+                "reference": "597f3fff8e3e91836bb0bd38f5718b56ddbde2f3",
                 "shasum": ""
             },
             "require": {
@@ -3287,7 +3287,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v5.4.7"
+                "source": "https://github.com/symfony/process/tree/v5.4.8"
             },
             "funding": [
                 {
@@ -3303,7 +3303,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-18T16:18:52+00:00"
+            "time": "2022-04-08T05:07:18+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -3390,16 +3390,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.4.3",
+            "version": "v5.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "92043b7d8383e48104e411bc9434b260dbeb5a10"
+                "reference": "985e6a9703ef5ce32ba617c9c7d97873bb7b2a99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/92043b7d8383e48104e411bc9434b260dbeb5a10",
-                "reference": "92043b7d8383e48104e411bc9434b260dbeb5a10",
+                "url": "https://api.github.com/repos/symfony/string/zipball/985e6a9703ef5ce32ba617c9c7d97873bb7b2a99",
+                "reference": "985e6a9703ef5ce32ba617c9c7d97873bb7b2a99",
                 "shasum": ""
             },
             "require": {
@@ -3456,7 +3456,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v5.4.3"
+                "source": "https://github.com/symfony/string/tree/v5.4.9"
             },
             "funding": [
                 {
@@ -3472,20 +3472,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-02T09:53:40+00:00"
+            "time": "2022-04-19T10:40:37+00:00"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.6",
+            "version": "v5.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "294e9da6e2e0dd404e983daa5aa74253d92c05d0"
+                "reference": "af52239a330fafd192c773795520dc2dd62b5657"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/294e9da6e2e0dd404e983daa5aa74253d92c05d0",
-                "reference": "294e9da6e2e0dd404e983daa5aa74253d92c05d0",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/af52239a330fafd192c773795520dc2dd62b5657",
+                "reference": "af52239a330fafd192c773795520dc2dd62b5657",
                 "shasum": ""
             },
             "require": {
@@ -3545,7 +3545,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.6"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.9"
             },
             "funding": [
                 {
@@ -3561,7 +3561,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-02T12:42:23+00:00"
+            "time": "2022-05-21T10:24:18+00:00"
         },
         {
             "name": "wp-cli/cache-command",
@@ -5697,15 +5697,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "6.3.1",
+            "version": "6.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/6.3.1"
+                "reference": "tags/6.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.6.3.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.6.5.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5733,15 +5733,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-gateway-stripe",
-            "version": "6.3.0",
+            "version": "6.4.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/",
-                "reference": "tags/6.3.0"
+                "reference": "tags/6.4.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.6.3.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.6.4.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5751,15 +5751,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-pdf-invoices-packing-slips",
-            "version": "2.14.4",
+            "version": "2.14.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-pdf-invoices-packing-slips/",
-                "reference": "tags/2.14.4"
+                "reference": "tags/2.14.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-pdf-invoices-packing-slips.2.14.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-pdf-invoices-packing-slips.2.14.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
